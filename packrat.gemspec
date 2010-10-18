@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Hansen"]
-  s.date = %q{2010-10-17}
-  s.description = %q{TODO: longer description of your gem}
-  s.email = %q{mikeh@letsgel.com}
+  s.date = %q{2010-10-18}
+  s.description = %q{Packrat is a gem for merging all css rules to inline for html emails and files.}
+  s.email = %q{indyjones805@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -24,6 +24,11 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/packrat.rb",
+     "lib/packrat/packrat_premailer.rb",
+     "lib/packrat/view_helpers.rb",
+     "lib/premailer/html_to_plain_text.rb",
+     "lib/premailer/premailer.rb",
+     "packrat.gemspec",
      "test/helper.rb",
      "test/test_packrat.rb"
   ]
@@ -31,7 +36,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Packrat is a gem for merging all css rules to inline for html emails and files.}
   s.test_files = [
     "test/helper.rb",
      "test/test_packrat.rb"

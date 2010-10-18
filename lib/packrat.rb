@@ -3,7 +3,6 @@ require 'open-uri'
 require 'hpricot'
 require 'css_parser'
 require 'active_support'
-require 'packrat/string_premailer'
 
 require File.dirname(__FILE__) + "/premailer/html_to_plain_text"
 require File.dirname(__FILE__) + "/premailer/premailer"

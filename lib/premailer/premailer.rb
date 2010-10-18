@@ -197,8 +197,11 @@ protected
   #
   # Returns an Hpricot document and a string with the HTML file's character set.
   def load_html(path) # :nodoc:
-    if @is_local_file
-        Hpricot(File.open(path, "r") {|f| f.read })
+    if path.is_a?(IO) || path.is_a?(StringIO)
+      @html_file = "http://foo.bar"
+      Hpricot(path.read)
+    elsif @is_local_file
+      Hpricot(File.open(path, "r") {|f| f.read })
     else
       Hpricot(open(path))
     end

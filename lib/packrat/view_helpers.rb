@@ -3,7 +3,7 @@ module Packrat
 
     def packrat_css(&block)
       c = capture(&block)
-      premailer = PackratPremailer.new(StringIO.new(c), :local_file => false)
+      premailer = Premailer.new(StringIO.new(c), :local_file => false)
       inlined = premailer.to_inline_css
 
       if Rails::VERSION::MAJOR == 2

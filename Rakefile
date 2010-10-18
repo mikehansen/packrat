@@ -5,9 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "packrat"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "mikeh@letsgel.com"
+    gem.summary = "Packrat is a gem for merging all css rules to inline for html emails and files."
+    gem.description = "Packrat is a gem for merging all css rules to inline for html emails and files."
+    gem.email = "indyjones805@gmail.com"
     gem.homepage = "http://github.com/mikehansen/packrat"
     gem.authors = ["Mike Hansen"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
