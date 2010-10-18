@@ -1,6 +1,6 @@
 = packrat
 
-Description goes here.
+Packrat is a gem for merging all css rules to inline in the html of emails.
 
 == Note on Patches/Pull Requests
  
