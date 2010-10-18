@@ -24,10 +24,10 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/packrat.rb",
-     "lib/packrat/packrat_premailer.rb",
      "lib/packrat/view_helpers.rb",
      "lib/premailer/html_to_plain_text.rb",
      "lib/premailer/premailer.rb",
+     "packrat-0.0.1.gem",
      "packrat.gemspec",
      "test/helper.rb",
      "test/test_packrat.rb"
