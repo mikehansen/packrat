@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{packrat}
-  s.version = "0.1.2"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Hansen"]
@@ -48,11 +48,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_runtime_dependency(%q<hpricot>, [">= 0.6"])
+      s.add_runtime_dependency(%q<css_parser>, [">= 0.9.1"])
+      s.add_runtime_dependency(%q<htmlentities>, [">= 4.0.0"])
     else
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_dependency(%q<hpricot>, [">= 0.6"])
+      s.add_dependency(%q<css_parser>, [">= 0.9.1"])
+      s.add_dependency(%q<htmlentities>, [">= 4.0.0"])
     end
   else
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+    s.add_dependency(%q<hpricot>, [">= 0.6"])
+    s.add_dependency(%q<css_parser>, [">= 0.9.1"])
+    s.add_dependency(%q<htmlentities>, [">= 4.0.0"])
   end
 end
 
