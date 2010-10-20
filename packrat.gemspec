@@ -41,6 +41,10 @@ Gem::Specification.new do |s|
     "test/helper.rb",
      "test/test_packrat.rb"
   ]
+  
+  s.add_dependency('hpricot', '>= 0.6')
+  s.add_dependency('css_parser', '>= 0.9.1')
+  s.add_dependency('htmlentities', '>= 4.0.0')
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
