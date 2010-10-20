@@ -11,6 +11,9 @@ begin
     gem.homepage = "http://github.com/mikehansen/packrat"
     gem.authors = ["Mike Hansen"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency('hpricot', '>= 0.6')
+    gem.add_dependency('css_parser', '>= 0.9.1')
+    gem.add_dependency('htmlentities', '>= 4.0.0')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
