@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{packrat}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Hansen"]
@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
      "lib/packrat/view_helpers.rb",
      "lib/premailer/html_to_plain_text.rb",
      "lib/premailer/premailer.rb",
-     "packrat-0.0.1.gem",
      "packrat.gemspec",
      "test/helper.rb",
      "test/test_packrat.rb"

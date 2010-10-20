@@ -7,7 +7,7 @@ module Packrat
       inlined = premailer.to_inline_css
 
       if Rails::VERSION::MAJOR == 2
-        concat(inlined, proc.binding)
+        concat(inlined)
       elsif Rails::VERSION::MAJOR == 3
         inlined.html_safe
       else
