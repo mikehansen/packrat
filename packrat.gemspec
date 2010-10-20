@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{packrat}
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Hansen"]
@@ -41,10 +41,6 @@ Gem::Specification.new do |s|
     "test/helper.rb",
      "test/test_packrat.rb"
   ]
-  
-  s.add_dependency('hpricot', '>= 0.6')
-  s.add_dependency('css_parser', '>= 0.9.1')
-  s.add_dependency('htmlentities', '>= 4.0.0')
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
