@@ -30,7 +30,7 @@
 #  premailer = Premailer.new(html_file, :warn_level => Premailer::Warnings::SAFE)
 #  puts premailer.to_inline_css
 class Premailer
-  include HtmlToPlainText
+  # include HtmlToPlainText
   include CssParser
 
   VERSION = '1.5.4'
